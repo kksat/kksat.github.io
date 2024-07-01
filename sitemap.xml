@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+        <loc>http://localhost:8012/</loc>
+        <lastmod>2024-09-24T00:00:00+00:00</lastmod>
+      </url><url>
+        <loc>http://localhost:8012/talks/</loc>
+        <lastmod>2024-09-24T00:00:00+00:00</lastmod>
+      </url><url>
+        <loc>http://localhost:8012/blog/</loc>
+        <lastmod>2024-07-16T00:00:00+00:00</lastmod>
+      </url><url>
+        <loc>http://localhost:8012/categories/ansible/</loc>
+        <lastmod>2024-06-15T10:15:00+02:00</lastmod>
+      </url><url>
+        <loc>http://localhost:8012/categories/</loc>
+        <lastmod>2024-06-15T10:15:00+02:00</lastmod>
+      </url><url>
+        <loc>http://localhost:8012/talks/2024/solid-ansible/</loc>
+        <lastmod>2024-06-15T10:15:00+02:00</lastmod>
+      </url><url>
+        <loc>http://localhost:8012/tags/</loc>
+        <lastmod>2024-06-15T10:15:00+02:00</lastmod>
+      </url><url>
+        <loc>http://localhost:8012/tags/talk/</loc>
+        <lastmod>2024-06-15T10:15:00+02:00</lastmod>
+      </url><url>
+        <loc>http://localhost:8012/talks/2023/ansible-molecule-for-devops/</loc>
+        <lastmod>2023-06-17T09:50:00+02:00</lastmod>
+      </url><url>
+        <loc>http://localhost:8012/license/</loc>
+      </url><url>
+        <loc>http://localhost:8012/privacy/</loc>
+      </url>
+</urlset>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ansible on Kirill Satarin</title>
+    <link>/categories/ansible/</link>
+    <description>Kirill Satarin (Ansible)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Jun 2024 10:15:00 +0200</lastBuildDate>
+    
+    <atom:link href="/categories/ansible/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    <item>
+      <title>Enhancing Ansible Development with SOLID Principles</title>
+      <link>/talks/2024/solid-ansible/</link>
+      <pubDate>Sat, 15 Jun 2024 10:15:00 +0200</pubDate>
+      
+      <guid>/talks/2024/solid-ansible/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#abstract&#34;&gt;
+        #
+    &lt;/a&gt;
+    Abstract
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;Discover how the fundamental principles of SOLID—Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion—can significantly elevate your Ansible role and playbook development. Join us for a session that delves into the practical application of SOLID principles within the realm of Ansible content creation.&lt;/p&gt;
+&lt;p&gt;Through insightful examples drawn from real-world experiences, this presentation will illuminate the precise moments and methods for applying SOLID principles to enhance Ansible content. Attendees will glean actionable strategies for efficiently refining their Ansible content by applying these principles.&lt;/p&gt;
+&lt;p&gt;Geared towards both seasoned Ansible practitioners and newcomers, this session will feature accessible, yet impactful examples that transcend expertise levels. Whether you&amp;rsquo;re seeking quick ways to improve your Ansible content or aiming to optimize your development workflow, this presentation promises practical insights and actionable takeaways.&lt;/p&gt;
+&lt;p&gt;Target Audience: Individuals interested in optimizing their Ansible content development process, whether they possess familiarity or are new to Ansible. The presentation will offer generic examples that cater to a diverse audience, requiring no expert-level knowledge of Ansible.&lt;/p&gt;
+&lt;h2 id=&#34;slide-deck&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#slide-deck&#34;&gt;
+        #
+    &lt;/a&gt;
+    Slide Deck
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://speakerdeck.com/kksat/enhancing-ansible-development-with-solid-principles&#34;&gt;Enhancing Ansible Development with SOLID Principles&lt;/a&gt;&lt;/p&gt;
+&lt;html&gt;
+&lt;iframe 
+class=&#34;speakerdeck-iframe&#34;
+frameborder=&#34;0&#34;
+src=&#34;https://speakerdeck.com/player/18118db09f2e4b68bc58421767bd789a&#34;
+title=&#34;Enhancing Ansible Development with SOLID Principles&#34;
+allowfullscreen=&#34;true&#34;
+style=&#34;border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;&#34;
+data-ratio=&#34;1.7777777777777777&#34;&gt;
+&lt;/iframe&gt;
+&lt;/html&gt;
+&lt;h2 id=&#34;code-samples&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#code-samples&#34;&gt;
+        #
+    &lt;/a&gt;
+    Code samples
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;Code examples for the talk given by Kirill Satarin at DevConf 2024.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/kksat/SOLID-Ansible&#34;&gt;https://github.com/kksat/SOLID-Ansible&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;video&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#video&#34;&gt;
+        #
+    &lt;/a&gt;
+    Video
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;div id=&#34;player&#34;&gt;&lt;/div&gt;
+&lt;script&gt;
+  var tag = document.createElement(&#39;script&#39;);
+  tag.src = &#34;https://www.youtube.com/iframe_api&#34;;
+  var firstScriptTag = document.getElementsByTagName(&#39;script&#39;)[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+  var player;
+  function onYouTubeIframeAPIReady() {
+    youtube_player = new YT.Player(&#39;player&#39;, {
+      height: &#39;390&#39;,
+      width: &#39;100%&#39;,
+      videoId: &#39;hA_BdkL4Wu4&#39;,
+      playerVars: {
+        &#39;playsinline&#39;: 1
+      },
+    });
+  }
+  function timeToSeconds(time) {
+    const [minutes, seconds] = time.split(&#39;:&#39;).map(Number);
+    return (minutes * 60) + seconds;
+  }
+  function time(time) {
+    youtube_player.seekTo(timeToSeconds(time))
+  }
+&lt;/script&gt;
+
+&lt;div style=&#34;
+  gap:1px;
+  font-size: 16px;
+  line-height: 0.5;
+  &#34;&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;00:00&#39;)&#34;&gt;00:00 Enhancing Ansible Development with SOLID Principles DevConf CZ 2024&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;00:25&#39;)&#34;&gt;00:25 CC BY warranty&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;00:31&#39;)&#34;&gt;00:31 Outline&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;01:10&#39;)&#34;&gt;01:10 Why?&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;01:38&#39;)&#34;&gt;01:38 SOLID principles&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;02:43&#39;)&#34;&gt;02:43 DEMO&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;04:18&#39;)&#34;&gt;04:18 Let&amp;rsquo;s start - simple_role&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;05:58&#39;)&#34;&gt;05:58 make help&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;06:10&#39;)&#34;&gt;06:10 make simple&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;06:56&#39;)&#34;&gt;06:56 Single responsibility principle&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;08:05&#39;)&#34;&gt;08:05 make srp_left&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;09:32&#39;)&#34;&gt;09:32 srp_right role example&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;10:23&#39;)&#34;&gt;10:23 make srp_right&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;11:25&#39;)&#34;&gt;11:25 Open close principle&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;12:33&#39;)&#34;&gt;12:33 make open_close_left&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;14:10&#39;)&#34;&gt;14:10 open_close_right role example&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;15:00&#39;)&#34;&gt;15:00 make open_close_right&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;15:48&#39;)&#34;&gt;15:48 Liskov substiution principle&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;17:23&#39;)&#34;&gt;17:23 make liskov_substitution_left&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;18:27&#39;)&#34;&gt;18:27 make liskov_subtitution_right&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;18:38&#39;)&#34;&gt;18:38 Interface segregation principle&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;19:40&#39;)&#34;&gt;19:40 Interface segregation left example&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;20:19&#39;)&#34;&gt;20:19 make is_left&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;20:50&#39;)&#34;&gt;20:50 make test_is_left&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;21:48&#39;)&#34;&gt;21:48 is_right role example&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;22:19&#39;)&#34;&gt;22:19 make is_right&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;22:40&#39;)&#34;&gt;22:40 make test_is_right&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;23:15&#39;)&#34;&gt;23:15 Dependency inversion principle&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;24:04&#39;)&#34;&gt;24:04 dependency_inversion left role example&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;25:05&#39;)&#34;&gt;25:05 make dip_left&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;26:34&#39;)&#34;&gt;26:34 make dip_right&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;26:53&#39;)&#34;&gt;26:53 SOLID principles for Ansible&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;27:53&#39;)&#34;&gt;27:53 References&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;28:16&#39;)&#34;&gt;28:16 Contacts&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;29:09&#39;)&#34;&gt;29:09 Question 1&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;31:32&#39;)&#34;&gt;31:32 Question 2&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;conference-page&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#conference-page&#34;&gt;
+        ##
+    &lt;/a&gt;
+    Conference page
+&lt;/div&gt;
+&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://pretalx.com/devconf-cz-2024/talk/HUWMAX/&#34;&gt;https://pretalx.com/devconf-cz-2024/talk/HUWMAX/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Ansible Molecule for DevOps</title>
+      <link>/talks/2023/ansible-molecule-for-devops/</link>
+      <pubDate>Sat, 17 Jun 2023 09:50:00 +0200</pubDate>
+      
+      <guid>/talks/2023/ansible-molecule-for-devops/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#abstract&#34;&gt;
+        #
+    &lt;/a&gt;
+    Abstract
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;In this lightning talk I will present Ansible Molecule driver that allows
+quickly provision infrastructure on major cloud providers from YAML file.
+Created landscape may include disks, shared storage, networks, all in different regions.
+Additional operations on provisioned landscape are possible - backup, restore, deallocation, allocation.
+Author will share how he and team used Ansible Molecule to test complex Ansible role in DevOps manner.
+Expected that participants are interested in quick and easy ways to provision compute infrastructure
+on major cloud providers and will be using presented tools after.&lt;/p&gt;
+&lt;h2 id=&#34;slide-deck&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#slide-deck&#34;&gt;
+        #
+    &lt;/a&gt;
+    Slide Deck
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;html&gt;
+  &lt;iframe class=&#34;speakerdeck-iframe&#34; frameborder=&#34;0&#34; src=&#34;https://speakerdeck.com/player/5eb4feb9f9d549adb9b591b103043d86&#34; title=&#34;Ansible Molecule for DevOps&#34; allowfullscreen=&#34;true&#34; style=&#34;border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;&#34; data-ratio=&#34;1.7777777777777777&#34;&gt;&lt;/iframe&gt;
+&lt;/html&gt;
+&lt;h2 id=&#34;video&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#video&#34;&gt;
+        #
+    &lt;/a&gt;
+    Video
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;div id=&#34;player&#34;&gt;&lt;/div&gt;
+&lt;script&gt;
+  var tag = document.createElement(&#39;script&#39;);
+  tag.src = &#34;https://www.youtube.com/iframe_api&#34;;
+  var firstScriptTag = document.getElementsByTagName(&#39;script&#39;)[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+  var player;
+  function onYouTubeIframeAPIReady() {
+    youtube_player = new YT.Player(&#39;player&#39;, {
+      height: &#39;390&#39;,
+      width: &#39;100%&#39;,
+      videoId: &#39;dmOcK9btC1Q&#39;,
+      playerVars: {
+        &#39;playsinline&#39;: 1
+      },
+    });
+  }
+  function timeToSeconds(time) {
+    const [minutes, seconds] = time.split(&#39;:&#39;).map(Number);
+    return (minutes * 60) + seconds;
+  }
+  function time(time) {
+    youtube_player.seekTo(timeToSeconds(time))
+  }
+&lt;/script&gt;
+
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;00:00&#39;)&#34;&gt;00:00 Ansible Molecule for DevOps - DevConf CZ 2023&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;00:21&#39;)&#34;&gt;00:21 Contents&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;00:45&#39;)&#34;&gt;00:45 Ansible Molecule quick introduction&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;01:56&#39;)&#34;&gt;01:56 Molecule installation and usage&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;03:11&#39;)&#34;&gt;03:11 Molecule folder structure and molecule commands&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;04:10&#39;)&#34;&gt;04:10 Molecule configuration file molecule.yml&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;05:03&#39;)&#34;&gt;05:03 Molecule.yml platforms for molecule-azure-driver&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;06:33&#39;)&#34;&gt;06:33 Architecture overview for molecule-azure-driver&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;07:54&#39;)&#34;&gt;07:54 How we use Ansible Molecule and benefits&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;10:10&#39;)&#34;&gt;10:10 TL; DR&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ytbutton onclick=&#34;time(&#39;11:26&#39;)&#34;&gt;11:26 Question&lt;/ytbutton&gt;&lt;/p&gt;
+&lt;h2 id=&#34;presentation-page&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#presentation-page&#34;&gt;
+        #
+    &lt;/a&gt;
+    Presentation page
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://devconfcz2023.sched.com/event/18c43a49c3bbf9d6a5ff47ed111463da&#34;&gt;https://devconfcz2023.sched.com/event/18c43a49c3bbf9d6a5ff47ed111463da&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    
+  </channel>
+</rss>
