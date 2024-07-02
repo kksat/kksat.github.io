@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Devtools on Kirill Satarin</title>
+    <link>/categories/devtools/</link>
+    <description>Kirill Satarin (Devtools)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Sep 2024 00:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="/categories/devtools/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    <item>
+      <title>GNU Make VS CI/CD Tools, Make Wins!</title>
+      <link>/talks/2024/make-vs-cicd/</link>
+      <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/talks/2024/make-vs-cicd/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#abstract&#34;&gt;
+        #
+    &lt;/a&gt;
+    Abstract
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;p&gt;In this talk author will share his personal experience how to use GNU make in CI/CD workflow and how this approach
+might be beneficial compared to use of external CI/CD tools in some cases.&lt;/p&gt;
+&lt;p&gt;Author will provide a lot of practical examples and provide comparison on the tools with&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Overview&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;The debate between traditional build tools like GNU Make and modern CI/CD pipelines continues to intrigue
+developers and engineers alike.
+While CI/CD tools offer automation and integration advantages, GNU Make remains a stalwart for its simplicity
+and flexibility in managing build processes.
+This session aims to explore the strengths of GNU Make in comparison to CI/CD tools,
+highlighting scenarios where Make emerges as the preferred choice.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Session Focus&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;This session seeks proposals that delve into the practical applications, benefits,
+and best practices of using GNU Make over CI/CD tools such as Jenkins, GitLab CI, GitHub Actions.&lt;/p&gt;
+&lt;p&gt;Topics of interest include but are not limited to:&lt;/p&gt;
+&lt;p&gt;Case studies demonstrating the efficiency of GNU Make in complex build environments.&lt;/p&gt;
+&lt;!-- Comparison of build times and resource utilization between Make and CI/CD tools. --&gt;
+&lt;p&gt;Integrating GNU Make with CI/CD pipelines for optimal build management.&lt;/p&gt;
+&lt;p&gt;Scalability and performance considerations when using GNU Make at scale.&lt;/p&gt;
+&lt;p&gt;Real-world examples showcasing scenarios where GNU Make outperforms CI/CD tools.&lt;/p&gt;
+&lt;p&gt;This talk is aimed at developers, engineers, DevOps practitioners,
+and anyone with experience or insights into the strengths of GNU Make in build automation and management.&lt;/p&gt;
+&lt;!-- TODO --&gt;
+&lt;!-- List of CI/CD tools with their features --&gt;
+&lt;!-- https://spacelift.io/blog/ci-cd-tools --&gt;
+&lt;!----&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Run Ansible tools anywhere with GNU Make</title>
+      <link>/blog/2024/make-ansible/</link>
+      <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2024/make-ansible/</guid>
+      <description></description>
+    </item>
+    
+    
+  </channel>
+</rss>
