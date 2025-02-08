@@ -170,6 +170,4 @@ youtube_player.seekTo(timeToSeconds(time))
 Presentation page
 &lt;/div>
 &lt;/h2>
-&lt;p>&lt;a href="https://devconfcz2023.sched.com/event/18c43a49c3bbf9d6a5ff47ed111463da">https://devconfcz2023.sched.com/event/18c43a49c3bbf9d6a5ff47ed111463da&lt;/a>&lt;/p></description></item><item><title>Redirect with javascript</title><link>/s/redirect/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/s/redirect/</guid><description>&lt;script>
-window.location.replace('https:\/\/google.com');
-&lt;/script></description></item><item><title>Redirect without javascript</title><link>/s/test/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/s/test/</guid><description/></item></channel></rss>
+&lt;p>&lt;a href="https://devconfcz2023.sched.com/event/18c43a49c3bbf9d6a5ff47ed111463da">https://devconfcz2023.sched.com/event/18c43a49c3bbf9d6a5ff47ed111463da&lt;/a>&lt;/p></description></item></channel></rss>
