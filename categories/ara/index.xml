@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ara on Kirill Satarin</title><link>/categories/ara/</link><description>Kirill Satarin (Ara)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 04 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="/categories/ara/index.xml" rel="self" type="application/rss+xml"/><item><title>ARA Ansible for the team</title><link>/talks/2025/ara-ansible/</link><pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate><guid>/talks/2025/ara-ansible/</guid><description>&lt;h2 id="abstract" >
+&lt;div>
+&lt;a href="#abstract">
+#
+&lt;/a>
+Abstract
+&lt;/div>
+&lt;/h2>
+&lt;p>ARA (ARA Records Ansible) is an Ansible development tool that makes it much easier to understand, troubleshoot and debug Ansible content during development process. This tool can also help you to collaborate with your team members on Ansible content development.&lt;/p>
+&lt;p>This talk will cover the following topics:&lt;/p>
+&lt;ul>
+&lt;li>What is ARA and how it works&lt;/li>
+&lt;li>How to set up ARA in your environment&lt;/li>
+&lt;li>How to use ARA to understand, troubleshoot and debug Ansible content&lt;/li>
+&lt;li>How to use ARA to collaborate with your team members on Ansible content development&lt;/li>
+&lt;li>How to integrate ARA into your CI/CD pipeline&lt;/li>
+&lt;li>How to use ARA to track changes in your Ansible content&lt;/li>
+&lt;/ul>
+&lt;p>This talk is designed for Ansible content developers of all levels. Whether you are a seasoned expert or just starting with Ansible.&lt;/p>
+&lt;h2 id="slide-deck" >
+&lt;div>
+&lt;a href="#slide-deck">
+#
+&lt;/a>
+Slide Deck
+&lt;/div>
+&lt;/h2>
+&lt;p>&lt;a href="https://speakerdeck.com/kksat/ara-ansible-for-the-teams">ARA Ansible for the teams&lt;/a>&lt;/p>
+&lt;html>
+&lt;iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/3b26f2ff89ce4b76b3a8fc042eef9905" title="ARA Ansible for the teams" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777">&lt;/iframe>
+&lt;/html>
+&lt;h2 id="video" >
+&lt;div>
+&lt;a href="#video">
+#
+&lt;/a>
+Video
+&lt;/div>
+&lt;/h2>
+&lt;div id="player">&lt;/div>
+&lt;script>
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+var player;
+function onYouTubeIframeAPIReady() {
+youtube_player = new YT.Player('player', {
+height: '390',
+width: '100%',
+videoId: 'alYBA6KJLEE',
+playerVars: {
+'playsinline': 1
+},
+});
+}
+function timeToSeconds(time) {
+const [minutes, seconds] = time.split(':').map(Number);
+return (minutes * 60) + seconds;
+}
+function time(time) {
+youtube_player.seekTo(timeToSeconds(time))
+}
+&lt;/script>
+&lt;h3 id="conference-page" >
+&lt;div>
+&lt;a href="#conference-page">
+##
+&lt;/a>
+Conference page
+&lt;/div>
+&lt;/h3>
+&lt;p>&lt;a href="https://cfp.cfgmgmtcamp.org/ghent2025/talk/S9ZRBD/">https://cfp.cfgmgmtcamp.org/ghent2025/talk/S9ZRBD/&lt;/a>&lt;/p></description></item></channel></rss>
