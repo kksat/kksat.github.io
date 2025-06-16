@@ -70,7 +70,93 @@ youtube_player.seekTo(timeToSeconds(time))
 Conference page
 &lt;/div>
 &lt;/h3>
-&lt;p>&lt;a href="https://cfp.cfgmgmtcamp.org/ghent2025/talk/S9ZRBD/">https://cfp.cfgmgmtcamp.org/ghent2025/talk/S9ZRBD/&lt;/a>&lt;/p></description></item><item><title>Enhancing Ansible Development with SOLID Principles</title><link>/talks/2024/solid-ansible/</link><pubDate>Sat, 15 Jun 2024 10:15:00 +0200</pubDate><guid>/talks/2024/solid-ansible/</guid><description>&lt;h2 id="abstract" >
+&lt;p>&lt;a href="https://cfp.cfgmgmtcamp.org/ghent2025/talk/S9ZRBD/">https://cfp.cfgmgmtcamp.org/ghent2025/talk/S9ZRBD/&lt;/a>&lt;/p></description></item><item><title>Functional programming design patterns in Ansible code</title><link>/talks/2025/functional-ansible/</link><pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate><guid>/talks/2025/functional-ansible/</guid><description>&lt;h2 id="abstract" >
+&lt;div>
+&lt;a href="#abstract">
+#
+&lt;/a>
+Abstract
+&lt;/div>
+&lt;/h2>
+&lt;p>Ansible yaml code is easy to write but hard to understand and reason about, hard to maintain, debug and test.&lt;/p>
+&lt;p>All of this until you take a functional programming perspective look at an Ansible code. Concepts from functional programming like pure functions, effects, composition, lazy evaluations and others are very much applicable and very useful in Ansible.Allow me to show you how concepts from functional programming can help you simplify Ansible content development, make your Ansible content bullet proof tested, easy to maintain, understand and reuse.&lt;/p>
+&lt;p>This talk does not require any prior knowledge of functional programming. It is designed to be useful to both beginners and experienced Ansible content developers.&lt;/p>
+&lt;p>Ansible&amp;rsquo;s YAML syntax makes writing automation straightforward — but as projects grow, maintaining large playbooks and roles becomes a real challenge. In this session, Kirill Satarin proposed a powerful solution: borrowing functional programming (FP) principles to improve Ansible code quality.
+Attendees learned how adopting functional patterns like pure functions, clear separation of effects, immutability, composition, and lazy evaluation can make Ansible automation far easier to test, debug, understand, and extend. These ideas were made accessible even to those without prior FP experience, with real-world Ansible examples illustrating each principle.
+What is covered in the talk:
+Why complex Ansible codebases become difficult to manage
+Introduction to functional programming concepts relevant to Ansible
+Practical techniques to apply FP principles in roles, playbooks, and modules
+Strategies for improving testability, modularity, and maintenance
+How beginners and experienced developers alike can benefit from FP patterns
+By adopting a functional mindset, attendees were shown a clear path to more reliable and resilient automation content.&lt;/p>
+&lt;h2 id="slide-deck" >
+&lt;div>
+&lt;a href="#slide-deck">
+#
+&lt;/a>
+Slide Deck
+&lt;/div>
+&lt;/h2>
+&lt;p>&lt;a href="https://speakerdeck.com/kksat/functional%20programming%20design%20patterns%20in%20ansible%20code">Functional programming design patterns in ansible code&lt;/a>&lt;/p>
+&lt;html>
+&lt;iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/56fdb4d24c564b0db1e98c1a58b7a1b1" title="Functional programming design patterns in Ansible code" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777">&lt;/iframe>
+&lt;/html>
+&lt;h2 id="code-samples" >
+&lt;div>
+&lt;a href="#code-samples">
+#
+&lt;/a>
+Code samples
+&lt;/div>
+&lt;/h2>
+&lt;p>Code examples for the talk given by Kirill Satarin at CfgMgmtCamp 2025&lt;/p>
+&lt;p>&lt;a href="https://github.com/kksat/functional-ansible">https://github.com/kksat/functional-ansible&lt;/a>&lt;/p>
+&lt;h2 id="video" >
+&lt;div>
+&lt;a href="#video">
+#
+&lt;/a>
+Video
+&lt;/div>
+&lt;/h2>
+&lt;p>Will be provided as soon as it is available.&lt;/p>
+&lt;!---->
+&lt;!-- &lt;div id="player">&lt;/div>
+&lt;script>
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+var player;
+function onYouTubeIframeAPIReady() {
+youtube_player = new YT.Player('player', {
+height: '390',
+width: '100%',
+videoId: '',
+playerVars: {
+'playsinline': 1
+},
+});
+}
+function timeToSeconds(time) {
+const [minutes, seconds] = time.split(':').map(Number);
+return (minutes * 60) + seconds;
+}
+function time(time) {
+youtube_player.seekTo(timeToSeconds(time))
+}
+&lt;/script>
+-->
+&lt;h3 id="conference-page" >
+&lt;div>
+&lt;a href="#conference-page">
+##
+&lt;/a>
+Conference page
+&lt;/div>
+&lt;/h3>
+&lt;p>&lt;a href="https://cfp.cfgmgmtcamp.org/ghent2025/talk/NVGQ39/">https://cfp.cfgmgmtcamp.org/ghent2025/talk/NVGQ39/&lt;/a>&lt;/p></description></item><item><title>Enhancing Ansible Development with SOLID Principles</title><link>/talks/2024/solid-ansible/</link><pubDate>Sat, 15 Jun 2024 10:15:00 +0200</pubDate><guid>/talks/2024/solid-ansible/</guid><description>&lt;h2 id="abstract" >
 &lt;div>
 &lt;a href="#abstract">
 #
