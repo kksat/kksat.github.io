@@ -1,4 +1,76 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kirill Satarin</title><link>/</link><description>Kirill Satarin</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 16 Jul 2099 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>ARA Ansible for the team</title><link>/talks/2025/ara-ansible/</link><pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate><guid>/talks/2025/ara-ansible/</guid><description>&lt;h2 id="abstract" >
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kirill Satarin</title><link>/</link><description>Kirill Satarin</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 16 Jul 2099 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>ARA Ansible for the Team (Boston)</title><link>/talks/2025/ara-ansible-boston/</link><pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate><guid>/talks/2025/ara-ansible-boston/</guid><description>&lt;h2 id="abstract" >
+&lt;div>
+&lt;a href="#abstract">
+#
+&lt;/a>
+Abstract
+&lt;/div>
+&lt;/h2>
+&lt;p>ARA is a powerful development tool that revolutionizes how teams understand, troubleshoot, and debug Ansible content. By providing
+detailed execution records and intuitive visualizations, ARA transforms complex playbook runs into actionable insights, significantly
+reducing development time and improving collaboration.&lt;/p>
+&lt;p>This session will demonstrate:&lt;/p>
+&lt;p>• ARA fundamentals - Architecture, core features, and how it captures Ansible execution data
+• Environment setup - Quick installation and configuration for local and team environments
+• Team collaboration - Sharing execution reports, comparing runs, and maintaining playbook documentation&lt;/p>
+&lt;p>Target audience: Ansible developers, DevOps engineers, and infrastructure teams looking to enhance their automation workflows. No prior
+ARA experience required - examples will progress from basic concepts to advanced use cases.&lt;/p>
+&lt;p>Key takeaways: Attendees will leave with practical knowledge to implement ARA in their environments and measurably improve their Ansible
+development process.&lt;/p>
+&lt;h2 id="slide-deck" >
+&lt;div>
+&lt;a href="#slide-deck">
+#
+&lt;/a>
+Slide Deck
+&lt;/div>
+&lt;/h2>
+&lt;p>&lt;a href="https://speakerdeck.com/kksat/ara-ansible-for-the-teams-devconf-dot-us-boston-2025">ARA Ansible for the teams&lt;/a>&lt;/p>
+&lt;html>
+&lt;iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/5e88fe66a2424c429f3963307a2932d3" title="ARA Ansible for the Team" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777">&lt;/iframe>
+&lt;/html>
+&lt;h2 id="video" >
+&lt;div>
+&lt;a href="#video">
+#
+&lt;/a>
+Video
+&lt;/div>
+&lt;/h2>
+&lt;div id="player">&lt;/div>
+&lt;script>
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+var player;
+function onYouTubeIframeAPIReady() {
+youtube_player = new YT.Player('player', {
+height: '390',
+width: '100%',
+videoId: 'nwvLkP359Cc',
+playerVars: {
+'playsinline': 1
+},
+});
+}
+function timeToSeconds(time) {
+const [minutes, seconds] = time.split(':').map(Number);
+return (minutes * 60) + seconds;
+}
+function time(time) {
+youtube_player.seekTo(timeToSeconds(time))
+}
+&lt;/script>
+&lt;h3 id="conference-page" >
+&lt;div>
+&lt;a href="#conference-page">
+##
+&lt;/a>
+Conference page
+&lt;/div>
+&lt;/h3>
+&lt;p>&lt;a href="https://pretalx.devconf.info/devconf-us-2025/talk/88AVFL/">https://pretalx.devconf.info/devconf-us-2025/talk/88AVFL/&lt;/a>&lt;/p></description></item><item><title>ARA Ansible for the team</title><link>/talks/2025/ara-ansible/</link><pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate><guid>/talks/2025/ara-ansible/</guid><description>&lt;h2 id="abstract" >
 &lt;div>
 &lt;a href="#abstract">
 #
